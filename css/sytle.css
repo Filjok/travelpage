@@ -1,0 +1,264 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+
+
+/*  css reset tool code starting */
+/*  this code is provided form the internet for resting certain styles for the page
+ */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* css reset tool code ending */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+}
+.padmar{
+    margin-inline: 15%;
+   
+}
+.nav_styles{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.page_one{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/page0nebg.png');
+    background-size:100%;
+    background-repeat: no-repeat;
+
+    
+    
+}
+.heropara{
+    /* width: 100%;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+    font-size: 70px;
+    font-stretch: extra-expanded;
+    font-weight: 800;
+    position: relative;
+    top: 24%;
+    
+
+}
+.parahero{
+    color: rgb(92, 90, 90);
+}
+.paraspan{
+    color:#414f6b;
+}
+
+.page_two{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/second_bg.png');
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.snd_desc{
+    
+    position: absolute;
+    top: 20%;
+
+}
+.headsub{
+    font-size:  130pt;
+    font-weight: 500;
+    color: #687894;
+    display: inline;
+
+}
+.history{
+    font-size:  32pt;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #414f6b;
+    position: absolute;
+    left: 18%;
+    top: 33%;
+    
+    
+}
+.headsub::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #687894;
+    display: inline-block;
+    
+}
+.desc_snd{
+
+padding-inline:10%;
+text-align: justify;
+}
+
+.carouselview{
+    width: 100%;
+    height: 180px;
+    background-color: #414f6b8e;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    
+
+    
+
+}
+.carouselimage{
+margin-top: 18px;
+    width: 220px;
+    height: 135px;
+}
+
+.page_three{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.footerhead{
+
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    position: relative;
+}
+.footerbutton{
+    
+    width: 100%;
+    height: 5vh;
+    background-color: #414f6b;
+    display: flex;
+    align-items: center;
+}
+.footerimage{
+    width: 100%;
+    height: 62vh;
+    background-color: white;
+}
+.footerlink{
+    width: 100%;
+    height:8vh ;
+    background-color: #414f6b;
+    display: flex;
+    align-items: center;
+}
+.desc_three{
+   
+    padding-left: 20%;
+    padding-right: 10%;
+    text-align: justify;
+    top: 5px;
+    position: absolute;
+    top:50%;
+    left:23%;
+    }
+    .climb{
+        font-size:  32pt;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #414f6b;
+        position: absolute;
+        left: 30.5%;
+        top: 48%;
+        
+        
+    }
+    .btnpad{
+        background-color:#414f6b;
+        color: #b0b4be;
+        width: max-content;
+        height:5vh;
+        border-style: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-decoration: none;
+        padding-right: 10px;
+        
+    }
+    
+
+    .btnpad:hover{
+        background-color: #b0b4be;
+        color: #414f6b;
+        text-decoration: underline;
+    }
+    .footerpng{
+        width: 100%;
+        height: 62vh;
+    }
+    .logopad{
+        padding-left: 20%;
+        color: #687894;
+    }
+    .parafooter{
+        padding-left: 5px;
+        font-weight: 600;
+        color: #687894;
+    }
+    .copy{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 38%;
+        color:#687894;
+    
+    }
